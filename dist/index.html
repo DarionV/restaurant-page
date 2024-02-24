@@ -5,13 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
+      <div class="logo-container">
+        <img
+          src="/src/images/logo-graphic.png"
+          alt="big bertha logo"
+          height="160px"
+          class="rounded"
+        />
+        <img
+          src="/src/images/logo-text.svg"
+          alt="Big Bertha Logo"
+          width="500px"
+          height="170px"
+        />
+      </div>
       <nav>
-        <button>Home</button><button>Menu</button><button>About</button>
+        <button class="tilt-right">Home</button
+        ><button class="tilt-left">Menu</button
+        ><button class="tilt-right">About</button>
       </nav>
     </header>
-    <div id="content"></div>
+    <div id="content">
+      <div class="hero">
+        <img src="/src/images/promo.svg" alt="promo text" height="150px" />
+        <img
+          src="/src/images/shake_01.png"
+          alt="milkshake"
+          width="400px"
+          class="rounded"
+        />
+      </div>
+
+      <div class="promo-container">
+        <p>Order 1, get 5 free! Only today! (and every other day!!!)</p>
+      </div>
+    </div>
   </body>
 </html>
