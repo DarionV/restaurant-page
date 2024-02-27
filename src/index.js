@@ -1,5 +1,6 @@
 import "./style.css";
 import { renderHome } from "./home";
+import { renderAbout } from "./about";
 
 renderHome();
 
@@ -16,6 +17,7 @@ menuButton.addEventListener("click", () => {
 });
 aboutButton.addEventListener("click", () => {
   clearContent();
+  renderAbout();
 });
 
 const clearContent = function () {
