@@ -7,8 +7,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-image: url(images/background-tile.png);
-  background-size: 14%; */
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -63,13 +61,12 @@ button:hover {
   display: flex;
   flex-direction: column;
   background-image: url(images/hero.webp);
-  background-size: 100%;
+  background-size: cover;
   background-position: 0px -520px;
   justify-content: center;
 }
 
 .hero {
-  margin-top: 120px;
   width: 100vw;
   height: 200px;
   background-color: hsla(324, 77%, 79%, 0.8);
@@ -83,7 +80,7 @@ button:hover {
 .hero > img:nth-child(2) {
   /* border: 10px solid white; */
   margin-left: 30px;
-  translate: 0px 40px;
+  translate: 0px 50px;
   z-index: 2;
 }
 
