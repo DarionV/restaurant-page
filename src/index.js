@@ -28,7 +28,7 @@ const clearContent = function () {
   document.querySelector("#content").innerHTML = "";
 };
 
-const renderLogo = (function () {
+const renderLogo = function () {
   const logo01 = document.createElement("img");
   logo01.src = Logo01;
   logo01.height = 160;
@@ -40,4 +40,6 @@ const renderLogo = (function () {
 
   document.querySelector(".logo-container").appendChild(logo02);
   document.querySelector(".logo-container").appendChild(logo01);
-})();
+};
+
+renderLogo();
