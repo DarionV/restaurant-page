@@ -5,11 +5,11 @@ const renderHome = function () {
   heroContainer.classList.add("hero");
 
   const promoText = document.createElement("img");
-  promoText.src = "/src/images/promo.svg";
+  promoText.src = "src/images/promo.svg";
   promoText.height = 150;
 
   const promoImage = document.createElement("img");
-  promoImage.src = "/src/images/shake_01.png";
+  promoImage.src = "src/images/shake_01.png";
   promoImage.height = 400;
   promoImage.classList.add("rounded");
 

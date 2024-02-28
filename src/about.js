@@ -5,7 +5,7 @@ const renderAbout = function () {
   aboutContainer.classList.add("about-container");
 
   const image = document.createElement("img");
-  image.src = "/src/images/bertha.png";
+  image.src = "src/images/bertha.png";
   image.height = 400;
   image.classList.add("rounded");
 
