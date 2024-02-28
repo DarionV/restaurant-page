@@ -23,6 +23,7 @@ const renderAbout = function () {
 
   aboutContainer.innerHTML = text;
   aboutContainer.prepend(image);
+  aboutContainer.appendChild(background);
   contentContainer.appendChild(aboutContainer);
 };
 
