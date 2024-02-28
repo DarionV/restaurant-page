@@ -1,3 +1,6 @@
+import Shake01 from "./images/shake_01.png";
+import Promo from "./images/promo.svg";
+
 const renderHome = function () {
   const contentContainer = document.querySelector("#content");
 
@@ -5,11 +8,11 @@ const renderHome = function () {
   heroContainer.classList.add("hero");
 
   const promoText = document.createElement("img");
-  promoText.src = "src/images/promo.svg";
+  promoText.src = Promo;
   promoText.height = 150;
 
   const promoImage = document.createElement("img");
-  promoImage.src = "src/images/shake_01.png";
+  promoImage.src = Shake01;
   promoImage.height = 400;
   promoImage.classList.add("rounded");
 

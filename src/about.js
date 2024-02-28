@@ -1,3 +1,5 @@
+import Bertha from "./images/bertha.png";
+
 const renderAbout = function () {
   const contentContainer = document.querySelector("#content");
 
@@ -5,7 +7,7 @@ const renderAbout = function () {
   aboutContainer.classList.add("about-container");
 
   const image = document.createElement("img");
-  image.src = "src/images/bertha.png";
+  image.src = Bertha;
   image.height = 400;
   image.classList.add("rounded");
 
